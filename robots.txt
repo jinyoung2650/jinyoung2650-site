@@ -1,0 +1,25 @@
+# 진영유공압 — 검색엔진·AI 크롤러 모두 허용 (명함이므로 널리 읽히는 것이 목적)
+User-agent: *
+Allow: /
+
+# AI 검색·답변용 크롤러를 명시적으로 허용 (차단 기본값인 호스팅 대비)
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: Claude-User
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Yeti
+Allow: /
+
+Sitemap: https://jinyoung2650.co.kr/sitemap.xml
